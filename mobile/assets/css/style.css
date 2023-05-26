@@ -1,0 +1,166 @@
+/* Your styles here */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;500;600;700&display=swap");
+/* DEFAULT SETTING */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  color: #25a2c3;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 700;
+  line-height: 1.5;
+}
+body {
+  color: #393d41;
+  font-size: 1.2em;
+  font-family: "Open Sans", sans-serif;
+  line-height: 1.65;
+}
+footer {
+  background-color: #25a2c3;
+  color: #c8e7f0;
+}
+footer a {
+  color: #c8e7f0;
+}
+footer h2 {
+  color: white;
+}
+header {
+  background-color: black;
+}
+button {
+  background-color: #f04c2f;
+  font-family: "Montserrat", sans-serif;
+  font-weight: bold;
+  color: white;
+}
+.card2,
+.card2 h2 {
+  background-color: #e22d0e;
+  color: white;
+}
+html {
+  margin: 0 auto;
+}
+
+/* Header */
+header {
+  padding: 2em;
+  text-align: center;
+}
+header img {
+  width: 50%;
+}
+.first-box {
+  text-align: center;
+  background-image: url(../images/banner.jpg);
+  background-size: cover;
+  background-position: center;
+  padding: 2em;
+  font-size: 1.3rem;
+  font-weight: 600;
+}
+.first-box h1 {
+  font-size: 2.5em;
+  line-height: 3rem;
+  margin-bottom: 0.5em;
+}
+.first-box p {
+  font-size: 1.3rem;
+}
+.first-box button {
+  padding: 1em;
+  margin-top: 2em;
+  width: 60%;
+  border-radius: 0.5em;
+  font-size: 1em;
+  text-transform: uppercase;
+}
+/* MAIN, ARTICLE */
+.second-box {
+  margin: 3em 2em;
+  text-align: center;
+  font-size: 1.15em;
+  font-weight: 500;
+}
+.second-box h3 {
+  margin: 1em 0;
+  font-weight: 800;
+}
+/* CARD */
+
+.card {
+  padding-bottom: 1.5em;
+  margin: 1.5em 2em;
+  text-align: center;
+  font-size: 1.1em;
+  font-weight: 500;
+  border: 1px solid #dee1e3;
+}
+img {
+  width: 100%;
+  margin: 0 auto;
+}
+#b img {
+  width: 100%;
+  border-radius: 50%;
+}
+#b {
+  border: none;
+}
+
+.card h3 {
+  margin: 0.8em 0;
+  font-weight: 700;
+}
+.card2 {
+  margin: 0 auto;
+  padding: 2em;
+  text-align: center;
+}
+.card2 h2 {
+  font-size: 2.6rem;
+  margin: 0.8em 0;
+}
+cite {
+  font-style: italic;
+  font-size: 1.2rem;
+}
+.card2 p:first-of-type {
+  font-size: 1.5rem;
+  margin-top: 2em;
+}
+.card2 p:last-of-type {
+  font-size: 1rem;
+}
+
+/* FOOTER */
+
+footer {
+  padding: 2.5em;
+  text-align: center;
+}
+footer h2 {
+  font-size: 2.6rem;
+  margin-bottom: 0.8em;
+}
+address {
+  margin-bottom: 2em;
+  font-size: 1.4rem;
+}
+footer > p:last-of-type {
+  font-size: 1rem;
+}
+hr {
+  width: 50%;
+  margin: 1.5em auto;
+}
+
+i {
+  color: white;
+  margin-right: 0.5em;
+}
